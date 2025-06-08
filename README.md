@@ -61,7 +61,7 @@
 <body>
   <header>
     <h1>Ananya Panicker</h1>
-    <p>Aspiring Software Engineer | Creative Enthusiast</p>
+    <p>Aspiring Software Engineer | Creative Enthusiast </p>
   </header>
 
   <section class="about">
@@ -73,8 +73,6 @@
     <h2>Project</h2>
     <h3>Piggy Track - Expense Tracker App</h3>
     <p>An intuitive expense tracking app to help users manage their budget and savings. Developed interface design and backend logic for data handling.</p>
-    <!-- Paste your real image link below -->
-    <img src="https://i.imgur.com/YOUR_IMAGE_ID.jpg" alt="PiggyTrack App Interface">
   </section>
 
   <section class="skills">
@@ -91,11 +89,6 @@
   <section class="contact">
     <h2>Contact</h2>
     <p>Email: ananya@example.com</p>
-    <!-- Add these if you have LinkedIn or GitHub -->
-    <!--
-    <p>LinkedIn: <a href="https://linkedin.com/in/ananyapanicker" target="_blank">ananyapanicker</a></p>
-    <p>GitHub: <a href="https://github.com/ananyapanicker" target="_blank">ananyapanicker</a></p>
-    -->
   </section>
 
   <footer>
