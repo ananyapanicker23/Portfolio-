@@ -4,7 +4,59 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ananya Panicker | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      color: #4a90e2;
+    }
+    .about, .project, .skills, .contact {
+      margin-bottom: 40px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      background: #e0e0e0;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -21,7 +73,8 @@
     <h2>Project</h2>
     <h3>Piggy Track - Expense Tracker App</h3>
     <p>An intuitive expense tracking app to help users manage their budget and savings. Developed interface design and backend logic for data handling.</p>
-    <img src="https://i.imgur.com/YOUR_IMAGE_ID.jpg" alt="PiggyTrack App Interface" />
+    <!-- Paste your real image link below -->
+    <img src="https://i.imgur.com/YOUR_IMAGE_ID.jpg" alt="PiggyTrack App Interface">
   </section>
 
   <section class="skills">
@@ -38,13 +91,15 @@
   <section class="contact">
     <h2>Contact</h2>
     <p>Email: ananya@example.com</p>
+    <!-- Add these if you have LinkedIn or GitHub -->
+    <!--
+    <p>LinkedIn: <a href="https://linkedin.com/in/ananyapanicker" target="_blank">ananyapanicker</a></p>
+    <p>GitHub: <a href="https://github.com/ananyapanicker" target="_blank">ananyapanicker</a></p>
+    -->
   </section>
 
   <footer>
     <p>&copy; 2025 Ananya Panicker. All rights reserved.</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
-
